@@ -1,0 +1,19 @@
+{
+  "name": "ga-auto-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "unique-selector": "^0.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0-beta.3",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "MIT"
+}
