@@ -6,7 +6,7 @@ $('[href]').click(function(event) {
 
   gtag('event', 'click', {
     'event_category': url,
-    'event_label': unique(event.target),
+    'event_label': unique(event.target) + " // " + $(event.target).text().trim(),
     'value': 1
   });
 });
